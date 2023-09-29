@@ -1,0 +1,36 @@
+.products{
+	margin: 20px;
+	padding: 0;
+	display: grid;
+	gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.product__single{
+	height: 200px;
+	padding: 10px;
+	background-color: rgb(220, 220, 220);
+	text-align: center;
+	border-radius: 5px;
+	cursor: pointer;
+}
+img{
+	height: 200px;
+}
+
+.pagination{
+	padding: 10px;
+	margin: 15px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.pagination > span{
+	cursor: pointer;
+	border: 1px solid grey;
+	padding: 15px 20px;
+}
+
+.selected-page-index{
+	background-color: blue;
+}
