@@ -1,0 +1,16 @@
+.App{
+
+}
+
+.countdown-container{
+	display: flex;
+
+}
+.hours, .seconds, .minutes{
+	display: flex;
+	flex-direction: column;
+}
+
+span{
+	display: block;
+}
